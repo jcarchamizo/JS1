@@ -1,8 +1,19 @@
-// Comments Javascript
+// 1. Asks the user for two numbers. Displays the result of the subtraction of both numbers on the screen and/or console.
+
+let subtract = 5 - 3; // Subtraction
+let num1 = 5, num2 = 3; // Declaration of 2 Variables
+let resultSubtraction = num1 + num2; // Subtraction of 2 numbers
+console.log("subtract: ", resultSubtract); // Print Subtraction in Console
+
+
+
+
+
+
 
 //Line Comment
 
-/****************
+/****************************************
  * 
  * Multi-line Comment
  * 
@@ -69,3 +80,29 @@ console.log(vector); // Print to array in Console
 
 console.log(vector[1]); // Print First Element to Array 1 in Console
 
+//------------------------------------------------------------------
+
+// Operators in JavaScript
+// 1. Arithmetic
+let resultSum = num1 + num2; // Sum of 2 numbers
+
+console.log("sum: ", resultSum); // Print Sum in Console
+
+let substract = 10 - 5; // Substract
+let multiplication = 5 * 3; // Multiplication
+let division = 10 / 2; // Division
+
+let modul = 10 % 3; // Modul (Rest of the division)
+let potential = 2 ** 3; // Potential (2 raised to 3)
+let mathPow = math.Pow(2,3); // Potential using Math.pow
+
+console.log("Rest: ", modul); // Print rest of the division in Console
+
+
+// Functions
+// 1. Declaration of Function
+function sum (a,b) { // Declaration of 1 Function
+    return a + b; // Return Sum of a and b
+}    
+
+console.log("sum: ", sum(5,3)); Call to Function and Show the Result in console
